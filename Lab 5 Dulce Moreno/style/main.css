@@ -1,0 +1,60 @@
+@import "normalize.css";
+/* Screen size 1*/
+
+@media screen and (max-width: 600px)
+ .grid{
+    display: grid;
+    grid-template-colums: 1fr;
+    background-color: #6a4c93;
+    padding: 30px;
+ }
+
+ /* Screen size 2 */
+
+@media screen and (min-width:600px)
+ .grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   background-color: #5a189a;
+   padding: 30px  
+ }
+
+ /*Image*/
+ img{
+    width:100%;
+    display:block;
+ }
+
+ /*Grid Format*/
+ 
+ .grid-item1{
+    background-color: #ffd6ff;
+    border: 2px solid;
+    padding:20px;
+}
+.grid-item2{
+   background-color: #e7c6ff;
+   border: 2px solid;
+   padding: 20px;
+
+}  
+.grid-item3{
+   background-color: #c8b6ff;
+   border: 2px solid;
+   padding: 20px;
+   
+} 
+
+/*Font atyling*/
+ h2{
+   font-size:40px;
+   font: giorgia;
+   text-align: center;
+   background-color: #b8c0ff;
+   justify-content: center;
+}  
+ p{
+   font-size:25px;
+   text-align:center;
+   font:verdana;
+ }
